@@ -41,7 +41,7 @@ export default function NewIncident(){
 
     return(
         <div className="new-incident-container">
-            <div className = "container">
+            <div className = "content">
                 <section>
                     <img src={logo} alt="Be The Hero"/>
 
@@ -65,7 +65,7 @@ export default function NewIncident(){
                         onChange = {e => setDescription(e.target.value)}
                     />
                     <input 
-                        placeholder="Descrição" 
+                        placeholder="Valor em reais" 
                         value = {value}
                         onChange = {e => setValue(e.target.value)}
                         

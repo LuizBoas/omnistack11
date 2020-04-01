@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { FiLogIn } from 'react-icons/fi';
 import {Link, useHistory} from 'react-router-dom';
 
-import './styler.css';
+import './styles.css';
 import api from '../../services/api';
 
 import heroesImg from '../../assets/heroes.png'; 
@@ -29,7 +29,7 @@ export default function Logon(){
 
     return (
         <div className = "logon-container">
-            <section clasName="form">
+            <section className="form">
                 <img src={logo} alt="Be The Hero"/>
 
                 <form onSubmit= {handleLogin}>
@@ -42,7 +42,7 @@ export default function Logon(){
                     />
                     <button className = "button" type= "submit">Entrar</button>
 
-                    <Link to="/register">
+                    <Link className='back-link' to="/register">
                         <FiLogIn size={16} color="#E02041"/>
                         Não tenho cadastro
                     </Link>

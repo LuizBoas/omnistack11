@@ -67,7 +67,7 @@ export default function Profile(){
                         <strong>CASO:</strong>
                         <p>{incident.title}</p>
                         <strong>DESCRIÇÃO:</strong>
-                        <p>{incident.description}</p>
+                        <p className='description'>{incident.description}</p>
                         <strong>VALOR:</strong>
                         <p>{Intl.NumberFormat('pt-BR', {style: 'currency', currency: 'BRL'}).format(incident.value)}</p>
 
