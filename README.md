@@ -3,10 +3,10 @@
 
 ## Technologies:
 **Back-end:** 
-  node, sqlite3, knex
+  node, sqlite3, knex                                             
 **Front-end:**
-  react
+  react                               
 **Mobile:**
-  react native
+  react native                  
   
   
