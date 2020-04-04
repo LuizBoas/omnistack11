@@ -4,9 +4,9 @@
 ## Technologies:
 **Back-end:** 
   node, sqlite3, knex
-**Front-end**
+**Front-end:**
   react
-**Mobile**
+**Mobile:**
   react native
   
   
