@@ -1,12 +1,12 @@
 ## omnistack11
 > Project: Be The Hero 
 
-**Technologies:**
-## Back-end: 
+## Technologies:
+**Back-end:** 
   node, sqlite3, knex
-## Front-end:
+**Front-end**
   react
-## Mobile
+**Mobile**
   react native
   
   
